@@ -34,25 +34,18 @@ export default {
           path: '/index'
         },
         {
-          title: '新闻中心',
-          path: '/news'
-        },
-        {
           title: '产品与服务',
           path: '/product'
         },
         {
-          title: '人才招聘',
-          path: '/job'
+          title: '关于我们',
+          path: '/about'
         },
-        // {
-        //   title: '客户服务',
-        //   path: '/customer'
-        // },
         {
-          title: '登录',
-          path: '/login'
+          title: '联系我们',
+          path: '/contact'
         }
+
       ],
       logo_img: [
         {
@@ -138,18 +131,6 @@ h2{
   .menu-item {
     flex-shrink: 0;
   }
-
-  .menu-item:last-child:before {
-    content: "";
-    display: block;
-    height: 12px;
-    border-right: 1px solid #bbbfc4;
-    //border-right: 1px solid #fff;
-    position: absolute;
-    bottom: 24px;
-    right: 48px;
-  }
-
   > .menu-item + .menu-item {
     margin-left: 40px;
   }

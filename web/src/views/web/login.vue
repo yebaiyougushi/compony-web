@@ -227,9 +227,9 @@
 export default {
   name: 'login',
   mounted () {
-    // const devUrl = 'http://localhost:9000/admin/#/login'
-    const prodUrl = 'https://xanadu.aerowang.cn/admin/#/login'
-    window.open(prodUrl, '_blank')
+    const devUrl = 'http://localhost:4001/admin/#/login'
+    // const prodUrl = 'https://xanadu.aerowang.cn/admin/#/login'
+    window.open(devUrl, '_blank')
     this.$router.push('/index')
   }
 }

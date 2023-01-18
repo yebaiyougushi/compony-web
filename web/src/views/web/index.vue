@@ -8,11 +8,13 @@
         v-scroll-to = "{ element: '.wrap-block',duration: 300, easing: 'ease',offset: 1  }"></scroll-hint>
     </div>
     <index-service></index-service>
+    <product1></product1>
     <AwFooter></AwFooter>
   </div>
 </template>
 
 <script>
+import product1 from '../../components/web/project1.vue'
 import Banner from '../../components/web/Banner'
 import ScrollHint from '../../components/web/scrollHint'
 import OverLay from '../../components/web/overLayText'
@@ -28,7 +30,8 @@ export default {
     ScrollHint,
     OverLay,
     AwFooter,
-    AwHeader
+    AwHeader,
+    product1
   },
   data () {
     return {

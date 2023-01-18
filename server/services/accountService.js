@@ -56,7 +56,7 @@ class AccountService {
       },
     })
   }
-  
+  https://56b177a33facc.t74.qifeiye.com/
   // 删除账户
   async deleteAccount(id) {
     return Account.destroy({

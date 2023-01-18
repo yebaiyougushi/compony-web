@@ -18,7 +18,7 @@ const getUploadDirName = require('./utils/getUploadDirName')
 const routers = require('./routers/index')
 
 // 常量
-const Port = process.env.PORT || 3000
+const Port = process.env.PORT || 3003
 const staticPath = './static'
 
 // 实例对象
